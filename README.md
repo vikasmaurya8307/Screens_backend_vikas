@@ -79,20 +79,6 @@ Clean code practices using Python to manage database operations:
 - **Automation:** Scripts for batch data processing and validation.
 - **Error Handling:** Robust logging and transaction management.
 
----
-
-## 📂 Project Structure
-```text
-├── database/
-│   ├── schema.sql          # Table definitions and constraints
-│   ├── indexes.sql         # Performance optimization scripts
-│   └── seed_data.sql       # Initial data for testing
-├── scripts/
-│   ├── db_config.py        # Database connection logic
-│   ├── data_handler.py     # Core backend business logic
-│   └── utils.py            # Helper functions for data cleaning
-└── docs/
-    └── arch_diagram.png    # Visual representation of data flow
 
 📈 Impact & Performance
 Speed: Reduced data retrieval time by implementing advanced indexing.
